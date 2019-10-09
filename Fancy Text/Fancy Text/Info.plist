@@ -53,6 +53,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Blacksword.otf</string>
+		<string>Moon Flower.ttf</string>
+		<string>LemonMilk.otf</string>
+		<string>SugarstyleMillenial-Regular.ttf</string>
+	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

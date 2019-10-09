@@ -15,6 +15,10 @@
 		973FE181234DAF520002539F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973FE17F234DAF520002539F /* LaunchScreen.storyboard */; };
 		973FE18C234DAF520002539F /* Fancy_TextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973FE18B234DAF520002539F /* Fancy_TextTests.swift */; };
 		973FE197234DAF520002539F /* Fancy_TextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973FE196234DAF520002539F /* Fancy_TextUITests.swift */; };
+		973FE1A8234DD12F0002539F /* LemonMilk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 973FE1A4234DD12E0002539F /* LemonMilk.otf */; };
+		973FE1A9234DD12F0002539F /* Blacksword.otf in Resources */ = {isa = PBXBuildFile; fileRef = 973FE1A5234DD12F0002539F /* Blacksword.otf */; };
+		973FE1AA234DD12F0002539F /* Moon Flower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 973FE1A6234DD12F0002539F /* Moon Flower.ttf */; };
+		973FE1AB234DD12F0002539F /* SugarstyleMillenial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 973FE1A7234DD12F0002539F /* SugarstyleMillenial-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		973FE192234DAF520002539F /* Fancy TextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fancy TextUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		973FE196234DAF520002539F /* Fancy_TextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fancy_TextUITests.swift; sourceTree = "<group>"; };
 		973FE198234DAF520002539F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		973FE1A4234DD12E0002539F /* LemonMilk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LemonMilk.otf; sourceTree = "<group>"; };
+		973FE1A5234DD12F0002539F /* Blacksword.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blacksword.otf; sourceTree = "<group>"; };
+		973FE1A6234DD12F0002539F /* Moon Flower.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Moon Flower.ttf"; sourceTree = "<group>"; };
+		973FE1A7234DD12F0002539F /* SugarstyleMillenial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SugarstyleMillenial-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				973FE176234DAF4F0002539F /* SceneDelegate.swift */,
 				973FE178234DAF4F0002539F /* ViewController.swift */,
 				973FE17A234DAF4F0002539F /* Main.storyboard */,
+				973FE1A5234DD12F0002539F /* Blacksword.otf */,
+				973FE1A4234DD12E0002539F /* LemonMilk.otf */,
+				973FE1A6234DD12F0002539F /* Moon Flower.ttf */,
+				973FE1A7234DD12F0002539F /* SugarstyleMillenial-Regular.ttf */,
 				973FE17D234DAF520002539F /* Assets.xcassets */,
 				973FE17F234DAF520002539F /* LaunchScreen.storyboard */,
 				973FE182234DAF520002539F /* Info.plist */,
@@ -232,9 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				973FE1A8234DD12F0002539F /* LemonMilk.otf in Resources */,
+				973FE1AA234DD12F0002539F /* Moon Flower.ttf in Resources */,
 				973FE181234DAF520002539F /* LaunchScreen.storyboard in Resources */,
 				973FE17E234DAF520002539F /* Assets.xcassets in Resources */,
 				973FE17C234DAF4F0002539F /* Main.storyboard in Resources */,
+				973FE1A9234DD12F0002539F /* Blacksword.otf in Resources */,
+				973FE1AB234DD12F0002539F /* SugarstyleMillenial-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
