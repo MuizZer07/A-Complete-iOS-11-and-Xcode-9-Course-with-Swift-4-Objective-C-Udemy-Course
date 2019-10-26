@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97621C09236404D1007D2949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97621C08236404D1007D2949 /* AppDelegate.swift */; };
+		97621C0B236404D1007D2949 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97621C0A236404D1007D2949 /* SceneDelegate.swift */; };
+		97621C0D236404D1007D2949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97621C0C236404D1007D2949 /* ViewController.swift */; };
+		97621C10236404D2007D2949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97621C0E236404D2007D2949 /* Main.storyboard */; };
+		97621C12236404DA007D2949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97621C11236404DA007D2949 /* Assets.xcassets */; };
+		97621C15236404DA007D2949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97621C13236404DA007D2949 /* LaunchScreen.storyboard */; };
+		97621C20236404DB007D2949 /* Tap_Me_FastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97621C1F236404DB007D2949 /* Tap_Me_FastTests.swift */; };
+		97621C2B236404DB007D2949 /* Tap_Me_FastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97621C2A236404DB007D2949 /* Tap_Me_FastUITests.swift */; };
+		97621C392364068E007D2949 /* PORKYS_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 97621C382364068E007D2949 /* PORKYS_.TTF */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97621C1C236404DB007D2949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97621BFD236404D1007D2949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97621C04236404D1007D2949;
+			remoteInfo = "Tap Me Fast";
+		};
+		97621C27236404DB007D2949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97621BFD236404D1007D2949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97621C04236404D1007D2949;
+			remoteInfo = "Tap Me Fast";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97621C05236404D1007D2949 /* Tap Me Fast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Me Fast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97621C08236404D1007D2949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97621C0A236404D1007D2949 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		97621C0C236404D1007D2949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97621C0F236404D2007D2949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97621C11236404DA007D2949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97621C14236404DA007D2949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97621C16236404DA007D2949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97621C1B236404DB007D2949 /* Tap Me FastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap Me FastTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97621C1F236404DB007D2949 /* Tap_Me_FastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_Me_FastTests.swift; sourceTree = "<group>"; };
+		97621C21236404DB007D2949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97621C26236404DB007D2949 /* Tap Me FastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap Me FastUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97621C2A236404DB007D2949 /* Tap_Me_FastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_Me_FastUITests.swift; sourceTree = "<group>"; };
+		97621C2C236404DB007D2949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97621C382364068E007D2949 /* PORKYS_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = PORKYS_.TTF; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97621C02236404D1007D2949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97621C18236404DB007D2949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97621C23236404DB007D2949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97621BFC236404D1007D2949 = {
+			isa = PBXGroup;
+			children = (
+				97621C07236404D1007D2949 /* Tap Me Fast */,
+				97621C1E236404DB007D2949 /* Tap Me FastTests */,
+				97621C29236404DB007D2949 /* Tap Me FastUITests */,
+				97621C06236404D1007D2949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97621C06236404D1007D2949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97621C05236404D1007D2949 /* Tap Me Fast.app */,
+				97621C1B236404DB007D2949 /* Tap Me FastTests.xctest */,
+				97621C26236404DB007D2949 /* Tap Me FastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97621C07236404D1007D2949 /* Tap Me Fast */ = {
+			isa = PBXGroup;
+			children = (
+				97621C08236404D1007D2949 /* AppDelegate.swift */,
+				97621C0A236404D1007D2949 /* SceneDelegate.swift */,
+				97621C0C236404D1007D2949 /* ViewController.swift */,
+				97621C0E236404D2007D2949 /* Main.storyboard */,
+				97621C11236404DA007D2949 /* Assets.xcassets */,
+				97621C13236404DA007D2949 /* LaunchScreen.storyboard */,
+				97621C16236404DA007D2949 /* Info.plist */,
+				97621C382364068E007D2949 /* PORKYS_.TTF */,
+			);
+			path = "Tap Me Fast";
+			sourceTree = "<group>";
+		};
+		97621C1E236404DB007D2949 /* Tap Me FastTests */ = {
+			isa = PBXGroup;
+			children = (
+				97621C1F236404DB007D2949 /* Tap_Me_FastTests.swift */,
+				97621C21236404DB007D2949 /* Info.plist */,
+			);
+			path = "Tap Me FastTests";
+			sourceTree = "<group>";
+		};
+		97621C29236404DB007D2949 /* Tap Me FastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97621C2A236404DB007D2949 /* Tap_Me_FastUITests.swift */,
+				97621C2C236404DB007D2949 /* Info.plist */,
+			);
+			path = "Tap Me FastUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97621C04236404D1007D2949 /* Tap Me Fast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97621C2F236404DB007D2949 /* Build configuration list for PBXNativeTarget "Tap Me Fast" */;
+			buildPhases = (
+				97621C01236404D1007D2949 /* Sources */,
+				97621C02236404D1007D2949 /* Frameworks */,
+				97621C03236404D1007D2949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tap Me Fast";
+			productName = "Tap Me Fast";
+			productReference = 97621C05236404D1007D2949 /* Tap Me Fast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97621C1A236404DB007D2949 /* Tap Me FastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97621C32236404DB007D2949 /* Build configuration list for PBXNativeTarget "Tap Me FastTests" */;
+			buildPhases = (
+				97621C17236404DB007D2949 /* Sources */,
+				97621C18236404DB007D2949 /* Frameworks */,
+				97621C19236404DB007D2949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97621C1D236404DB007D2949 /* PBXTargetDependency */,
+			);
+			name = "Tap Me FastTests";
+			productName = "Tap Me FastTests";
+			productReference = 97621C1B236404DB007D2949 /* Tap Me FastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97621C25236404DB007D2949 /* Tap Me FastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97621C35236404DB007D2949 /* Build configuration list for PBXNativeTarget "Tap Me FastUITests" */;
+			buildPhases = (
+				97621C22236404DB007D2949 /* Sources */,
+				97621C23236404DB007D2949 /* Frameworks */,
+				97621C24236404DB007D2949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97621C28236404DB007D2949 /* PBXTargetDependency */,
+			);
+			name = "Tap Me FastUITests";
+			productName = "Tap Me FastUITests";
+			productReference = 97621C26236404DB007D2949 /* Tap Me FastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97621BFD236404D1007D2949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Muiz Ahmed Khan";
+				TargetAttributes = {
+					97621C04236404D1007D2949 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					97621C1A236404DB007D2949 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 97621C04236404D1007D2949;
+					};
+					97621C25236404DB007D2949 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 97621C04236404D1007D2949;
+					};
+				};
+			};
+			buildConfigurationList = 97621C00236404D1007D2949 /* Build configuration list for PBXProject "Tap Me Fast" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97621BFC236404D1007D2949;
+			productRefGroup = 97621C06236404D1007D2949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97621C04236404D1007D2949 /* Tap Me Fast */,
+				97621C1A236404DB007D2949 /* Tap Me FastTests */,
+				97621C25236404DB007D2949 /* Tap Me FastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97621C03236404D1007D2949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97621C15236404DA007D2949 /* LaunchScreen.storyboard in Resources */,
+				97621C12236404DA007D2949 /* Assets.xcassets in Resources */,
+				97621C392364068E007D2949 /* PORKYS_.TTF in Resources */,
+				97621C10236404D2007D2949 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97621C19236404DB007D2949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97621C24236404DB007D2949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97621C01236404D1007D2949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97621C0D236404D1007D2949 /* ViewController.swift in Sources */,
+				97621C09236404D1007D2949 /* AppDelegate.swift in Sources */,
+				97621C0B236404D1007D2949 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97621C17236404DB007D2949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97621C20236404DB007D2949 /* Tap_Me_FastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97621C22236404DB007D2949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97621C2B236404DB007D2949 /* Tap_Me_FastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97621C1D236404DB007D2949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97621C04236404D1007D2949 /* Tap Me Fast */;
+			targetProxy = 97621C1C236404DB007D2949 /* PBXContainerItemProxy */;
+		};
+		97621C28236404DB007D2949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97621C04236404D1007D2949 /* Tap Me Fast */;
+			targetProxy = 97621C27236404DB007D2949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97621C0E236404D2007D2949 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97621C0F236404D2007D2949 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97621C13236404DA007D2949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97621C14236404DA007D2949 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97621C2D236404DB007D2949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97621C2E236404DB007D2949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97621C30236404DB007D2949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap Me Fast/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muiz.Tap-Me-Fast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97621C31236404DB007D2949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap Me Fast/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muiz.Tap-Me-Fast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97621C33236404DB007D2949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap Me FastTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muiz.Tap-Me-FastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tap Me Fast.app/Tap Me Fast";
+			};
+			name = Debug;
+		};
+		97621C34236404DB007D2949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap Me FastTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muiz.Tap-Me-FastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tap Me Fast.app/Tap Me Fast";
+			};
+			name = Release;
+		};
+		97621C36236404DB007D2949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap Me FastUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muiz.Tap-Me-FastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tap Me Fast";
+			};
+			name = Debug;
+		};
+		97621C37236404DB007D2949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap Me FastUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muiz.Tap-Me-FastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tap Me Fast";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97621C00236404D1007D2949 /* Build configuration list for PBXProject "Tap Me Fast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97621C2D236404DB007D2949 /* Debug */,
+				97621C2E236404DB007D2949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97621C2F236404DB007D2949 /* Build configuration list for PBXNativeTarget "Tap Me Fast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97621C30236404DB007D2949 /* Debug */,
+				97621C31236404DB007D2949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97621C32236404DB007D2949 /* Build configuration list for PBXNativeTarget "Tap Me FastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97621C33236404DB007D2949 /* Debug */,
+				97621C34236404DB007D2949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97621C35236404DB007D2949 /* Build configuration list for PBXNativeTarget "Tap Me FastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97621C36236404DB007D2949 /* Debug */,
+				97621C37236404DB007D2949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97621BFD236404D1007D2949 /* Project object */;
+}

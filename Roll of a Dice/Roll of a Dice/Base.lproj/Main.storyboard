@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="American Captain.otf">
+            <string>AmericanCaptain</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Roll_of_a_Dice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="ikD-w1-brJ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dice1" translatesAutoresizingMaskIntoConstraints="NO" id="aSW-jw-zGW">
+                                <rect key="frame" x="20" y="291.66666666666669" width="374" height="300.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="rvG-Jc-ak5"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPr-Vj-iUW">
+                                <rect key="frame" x="20" y="621.66666666666663" width="374" height="213.33333333333337"/>
+                                <fontDescription key="fontDescription" name="AmericanCaptain" family="American Captain" pointSize="115"/>
+                                <state key="normal" title="Roll">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="rollAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6F7-tF-eqC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roll The Dice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="0GI-ib-FAc">
+                                <rect key="frame" x="20" y="55.999999999999986" width="374" height="213.66666666666663"/>
+                                <fontDescription key="fontDescription" name="AmericanCaptain" family="American Captain" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ikD-w1-brJ" secondAttribute="trailing" id="8bW-Aa-EmG"/>
+                            <constraint firstAttribute="bottom" secondItem="ikD-w1-brJ" secondAttribute="bottom" id="9ps-h6-pLQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oPr-Vj-iUW" secondAttribute="bottom" constant="27" id="HeF-HA-ZaO"/>
+                            <constraint firstItem="0GI-ib-FAc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="L84-Q1-C6j"/>
+                            <constraint firstItem="oPr-Vj-iUW" firstAttribute="top" secondItem="aSW-jw-zGW" secondAttribute="bottom" constant="30" id="Lj0-eu-Jb4"/>
+                            <constraint firstItem="oPr-Vj-iUW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="N6F-Ae-AYN"/>
+                            <constraint firstItem="aSW-jw-zGW" firstAttribute="top" secondItem="0GI-ib-FAc" secondAttribute="bottom" constant="22" id="OSc-JZ-k5H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oPr-Vj-iUW" secondAttribute="trailing" constant="20" id="See-ur-Y44"/>
+                            <constraint firstItem="aSW-jw-zGW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="YpD-PF-kRA"/>
+                            <constraint firstItem="0GI-ib-FAc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cou-5p-RAJ"/>
+                            <constraint firstItem="oPr-Vj-iUW" firstAttribute="height" secondItem="0GI-ib-FAc" secondAttribute="height" id="dG0-cz-UBa"/>
+                            <constraint firstItem="ikD-w1-brJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hjg-ff-r1H"/>
+                            <constraint firstItem="ikD-w1-brJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="isH-ou-WHm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aSW-jw-zGW" secondAttribute="trailing" constant="20" id="mU4-QB-qbt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0GI-ib-FAc" secondAttribute="trailing" constant="20" id="wNp-si-8Y8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="diceImage" destination="aSW-jw-zGW" id="laK-hz-X93"/>
+                        <outlet property="rollBtn" destination="oPr-Vj-iUW" id="5PP-q5-R8X"/>
+                        <outlet property="rollLabel" destination="0GI-ib-FAc" id="wig-6q-1gi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="1980" height="1200"/>
+        <image name="Dice1" width="512" height="512"/>
+    </resources>
+</document>
