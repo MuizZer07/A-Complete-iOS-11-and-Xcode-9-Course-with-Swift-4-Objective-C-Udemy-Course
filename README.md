@@ -6,21 +6,22 @@ This repository contains a few practice projects from Udemy course (iOS 11 and X
 ### List of Applications:
 - Section 4: Swift 4 functions:
   - [Fancy Text](https://github.com/MuizZer07/iOS-apps/tree/master/Fancy%20Text)
-  - [Traffic Lights](https://github.com/MuizZer07/iOS-apps/tree/master/Traffic%20Lights)
+  - [Traffic Lights](https://github.com/MuizZer07/iOS-apps/tree/master/Traffic%20Light)
   - [Tap Me Fast](https://github.com/MuizZer07/iOS-apps/tree/master/Tap%20Me%20Fast)
   - [Roll of a Dice](https://github.com/MuizZer07/iOS-apps/tree/master/Roll%20of%20a%20Dice)
   - [Fact Bank](https://github.com/MuizZer07/iOS-apps/tree/master/Fact%20Bank)
 
 ### Few Screenshots:
-![Fancy Text](https://github.com/MuizZer07/iOS-apps/tree/master/Fancy%20Text/screenshot.png)
+![Fancy Text](https://github.com/MuizZer07/iOS-apps/blob/master/Fancy%20Text/screenshot.png)
 
-![Traffic Lights](https://github.com/MuizZer07/iOS-apps/tree/master/Traffic%20Lights/screenshot.png)
+![Traffic Light](https://github.com/MuizZer07/iOS-apps/blob/master/Traffic%20Light/Screenshot.png)
 
-![Tap Me Fast](https://github.com/MuizZer07/iOS-apps/tree/master/Tap%20Me%20Fast/screenshot.png)
+![Tap Me Fast](https://github.com/MuizZer07/iOS-apps/blob/master/Tap%20Me%20Fast/screenshot.png)
 
-![Roll of a Dice](https://github.com/MuizZer07/iOS-apps/tree/master/Roll%20of%20a%20Dice/screenshot.png)
+![Roll of a Dice](https://github.com/MuizZer07/iOS-apps/blob/master/Roll%20of%20a%20Dice/screenshot.png)
 
-![Fact Bank](https://github.com/MuizZer07/iOS-apps/tree/master/Fact%20Bank/screenshot.png)
+![Fact Bank](https://github.com/MuizZer07/iOS-apps/blob/master/Fact%20Bank/screenshot.png)
+
 ### References:
 
 - [1] [Udemy Course - link](https://www.udemy.com/course/ios-11-xcode-9-swift-4)
