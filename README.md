@@ -17,6 +17,8 @@ This repository contains a few practice projects from Udemy course (iOS 11 and X
   - [Temperature Calculator](https://github.com/MuizZer07/A-Complete-iOS-11-and-Xcode-9-Course-with-Swift-4-Objective-C-Udemy-Course/tree/master/Section%2020%20(Object-C%20Actions)/Temperature%20Calculator)
   - [Shake Me Silly](https://github.com/MuizZer07/A-Complete-iOS-11-and-Xcode-9-Course-with-Swift-4-Objective-C-Udemy-Course/tree/master/Section%2020%20(Object-C%20Actions)/Shake%20Me%20Silly)
   - [Calculator Application](https://github.com/MuizZer07/A-Complete-iOS-11-and-Xcode-9-Course-with-Swift-4-Objective-C-Udemy-Course/tree/master/Section%2020%20(Object-C%20Actions)/Calculator)
+  - [Simon Says](https://github.com/MuizZer07/A-Complete-iOS-11-and-Xcode-9-Course-with-Swift-4-Objective-C-Udemy-Course/tree/master/Section%2020%20(Object-C%20Actions)/Simon%20Says)
+
 ### References:
 
 - [1] [Udemy Course | link](https://www.udemy.com/course/ios-11-xcode-9-swift-4)
