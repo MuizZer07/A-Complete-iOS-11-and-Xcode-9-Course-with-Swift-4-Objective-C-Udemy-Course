@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97232550236DD86D00BDBBBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9723254F236DD86D00BDBBBC /* AppDelegate.m */; };
+		97232553236DD86D00BDBBBC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97232552236DD86D00BDBBBC /* SceneDelegate.m */; };
+		97232556236DD86D00BDBBBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97232555236DD86D00BDBBBC /* ViewController.m */; };
+		97232559236DD86D00BDBBBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97232557236DD86D00BDBBBC /* Main.storyboard */; };
+		9723255B236DD88A00BDBBBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9723255A236DD88A00BDBBBC /* Assets.xcassets */; };
+		9723255E236DD88A00BDBBBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9723255C236DD88A00BDBBBC /* LaunchScreen.storyboard */; };
+		97232561236DD88A00BDBBBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97232560236DD88A00BDBBBC /* main.m */; };
+		9723256B236DD88B00BDBBBC /* Shake_Me_SillyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9723256A236DD88B00BDBBBC /* Shake_Me_SillyTests.m */; };
+		97232576236DD88B00BDBBBC /* Shake_Me_SillyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97232575236DD88B00BDBBBC /* Shake_Me_SillyUITests.m */; };
+		97232584236DD8E800BDBBBC /* edosz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97232583236DD8E700BDBBBC /* edosz.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97232567236DD88A00BDBBBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97232543236DD86D00BDBBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9723254A236DD86D00BDBBBC;
+			remoteInfo = "Shake Me Silly";
+		};
+		97232572236DD88B00BDBBBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97232543236DD86D00BDBBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9723254A236DD86D00BDBBBC;
+			remoteInfo = "Shake Me Silly";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9723254B236DD86D00BDBBBC /* Shake Me Silly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake Me Silly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9723254E236DD86D00BDBBBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9723254F236DD86D00BDBBBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97232551236DD86D00BDBBBC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		97232552236DD86D00BDBBBC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		97232554236DD86D00BDBBBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97232555236DD86D00BDBBBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97232558236DD86D00BDBBBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9723255A236DD88A00BDBBBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9723255D236DD88A00BDBBBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9723255F236DD88A00BDBBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97232560236DD88A00BDBBBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97232566236DD88A00BDBBBC /* Shake Me SillyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shake Me SillyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9723256A236DD88B00BDBBBC /* Shake_Me_SillyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shake_Me_SillyTests.m; sourceTree = "<group>"; };
+		9723256C236DD88B00BDBBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97232571236DD88B00BDBBBC /* Shake Me SillyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shake Me SillyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97232575236DD88B00BDBBBC /* Shake_Me_SillyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shake_Me_SillyUITests.m; sourceTree = "<group>"; };
+		97232577236DD88B00BDBBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97232583236DD8E700BDBBBC /* edosz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = edosz.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97232548236DD86D00BDBBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97232563236DD88A00BDBBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9723256E236DD88B00BDBBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97232542236DD86D00BDBBBC = {
+			isa = PBXGroup;
+			children = (
+				9723254D236DD86D00BDBBBC /* Shake Me Silly */,
+				97232569236DD88A00BDBBBC /* Shake Me SillyTests */,
+				97232574236DD88B00BDBBBC /* Shake Me SillyUITests */,
+				9723254C236DD86D00BDBBBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9723254C236DD86D00BDBBBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9723254B236DD86D00BDBBBC /* Shake Me Silly.app */,
+				97232566236DD88A00BDBBBC /* Shake Me SillyTests.xctest */,
+				97232571236DD88B00BDBBBC /* Shake Me SillyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9723254D236DD86D00BDBBBC /* Shake Me Silly */ = {
+			isa = PBXGroup;
+			children = (
+				9723254E236DD86D00BDBBBC /* AppDelegate.h */,
+				9723254F236DD86D00BDBBBC /* AppDelegate.m */,
+				97232551236DD86D00BDBBBC /* SceneDelegate.h */,
+				97232552236DD86D00BDBBBC /* SceneDelegate.m */,
+				97232554236DD86D00BDBBBC /* ViewController.h */,
+				97232555236DD86D00BDBBBC /* ViewController.m */,
+				97232557236DD86D00BDBBBC /* Main.storyboard */,
+				9723255A236DD88A00BDBBBC /* Assets.xcassets */,
+				9723255C236DD88A00BDBBBC /* LaunchScreen.storyboard */,
+				9723255F236DD88A00BDBBBC /* Info.plist */,
+				97232583236DD8E700BDBBBC /* edosz.ttf */,
+				97232560236DD88A00BDBBBC /* main.m */,
+			);
+			path = "Shake Me Silly";
+			sourceTree = "<group>";
+		};
+		97232569236DD88A00BDBBBC /* Shake Me SillyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9723256A236DD88B00BDBBBC /* Shake_Me_SillyTests.m */,
+				9723256C236DD88B00BDBBBC /* Info.plist */,
+			);
+			path = "Shake Me SillyTests";
+			sourceTree = "<group>";
+		};
+		97232574236DD88B00BDBBBC /* Shake Me SillyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97232575236DD88B00BDBBBC /* Shake_Me_SillyUITests.m */,
+				97232577236DD88B00BDBBBC /* Info.plist */,
+			);
+			path = "Shake Me SillyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9723254A236DD86D00BDBBBC /* Shake Me Silly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9723257A236DD88B00BDBBBC /* Build configuration list for PBXNativeTarget "Shake Me Silly" */;
+			buildPhases = (
+				97232547236DD86D00BDBBBC /* Sources */,
+				97232548236DD86D00BDBBBC /* Frameworks */,
+				97232549236DD86D00BDBBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shake Me Silly";
+			productName = "Shake Me Silly";
+			productReference = 9723254B236DD86D00BDBBBC /* Shake Me Silly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97232565236DD88A00BDBBBC /* Shake Me SillyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9723257D236DD88B00BDBBBC /* Build configuration list for PBXNativeTarget "Shake Me SillyTests" */;
+			buildPhases = (
+				97232562236DD88A00BDBBBC /* Sources */,
+				97232563236DD88A00BDBBBC /* Frameworks */,
+				97232564236DD88A00BDBBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97232568236DD88A00BDBBBC /* PBXTargetDependency */,
+			);
+			name = "Shake Me SillyTests";
+			productName = "Shake Me SillyTests";
+			productReference = 97232566236DD88A00BDBBBC /* Shake Me SillyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97232570236DD88B00BDBBBC /* Shake Me SillyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97232580236DD88B00BDBBBC /* Build configuration list for PBXNativeTarget "Shake Me SillyUITests" */;
+			buildPhases = (
+				9723256D236DD88B00BDBBBC /* Sources */,
+				9723256E236DD88B00BDBBBC /* Frameworks */,
+				9723256F236DD88B00BDBBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97232573236DD88B00BDBBBC /* PBXTargetDependency */,
+			);
+			name = "Shake Me SillyUITests";
+			productName = "Shake Me SillyUITests";
+			productReference = 97232571236DD88B00BDBBBC /* Shake Me SillyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97232543236DD86D00BDBBBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Muiz Ahmed Khan";
+				TargetAttributes = {
+					9723254A236DD86D00BDBBBC = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					97232565236DD88A00BDBBBC = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 9723254A236DD86D00BDBBBC;
+					};
+					97232570236DD88B00BDBBBC = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 9723254A236DD86D00BDBBBC;
+					};
+				};
+			};
+			buildConfigurationList = 97232546236DD86D00BDBBBC /* Build configuration list for PBXProject "Shake Me Silly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97232542236DD86D00BDBBBC;
+			productRefGroup = 9723254C236DD86D00BDBBBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9723254A236DD86D00BDBBBC /* Shake Me Silly */,
+				97232565236DD88A00BDBBBC /* Shake Me SillyTests */,
+				97232570236DD88B00BDBBBC /* Shake Me SillyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97232549236DD86D00BDBBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9723255E236DD88A00BDBBBC /* LaunchScreen.storyboard in Resources */,
+				9723255B236DD88A00BDBBBC /* Assets.xcassets in Resources */,
+				97232584236DD8E800BDBBBC /* edosz.ttf in Resources */,
+				97232559236DD86D00BDBBBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97232564236DD88A00BDBBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9723256F236DD88B00BDBBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97232547236DD86D00BDBBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97232556236DD86D00BDBBBC /* ViewController.m in Sources */,
+				97232550236DD86D00BDBBBC /* AppDelegate.m in Sources */,
+				97232561236DD88A00BDBBBC /* main.m in Sources */,
+				97232553236DD86D00BDBBBC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97232562236DD88A00BDBBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9723256B236DD88B00BDBBBC /* Shake_Me_SillyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9723256D236DD88B00BDBBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97232576236DD88B00BDBBBC /* Shake_Me_SillyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97232568236DD88A00BDBBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9723254A236DD86D00BDBBBC /* Shake Me Silly */;
+			targetProxy = 97232567236DD88A00BDBBBC /* PBXContainerItemProxy */;
+		};
+		97232573236DD88B00BDBBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9723254A236DD86D00BDBBBC /* Shake Me Silly */;
+			targetProxy = 97232572236DD88B00BDBBBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97232557236DD86D00BDBBBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97232558236DD86D00BDBBBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9723255C236DD88A00BDBBBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9723255D236DD88A00BDBBBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97232578236DD88B00BDBBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97232579236DD88B00BDBBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9723257B236DD88B00BDBBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shake Me Silly/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muiz.Shake-Me-Silly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9723257C236DD88B00BDBBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shake Me Silly/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muiz.Shake-Me-Silly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9723257E236DD88B00BDBBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shake Me SillyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muiz.Shake-Me-SillyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shake Me Silly.app/Shake Me Silly";
+			};
+			name = Debug;
+		};
+		9723257F236DD88B00BDBBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shake Me SillyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muiz.Shake-Me-SillyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shake Me Silly.app/Shake Me Silly";
+			};
+			name = Release;
+		};
+		97232581236DD88B00BDBBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shake Me SillyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muiz.Shake-Me-SillyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shake Me Silly";
+			};
+			name = Debug;
+		};
+		97232582236DD88B00BDBBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shake Me SillyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.muiz.Shake-Me-SillyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shake Me Silly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97232546236DD86D00BDBBBC /* Build configuration list for PBXProject "Shake Me Silly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97232578236DD88B00BDBBBC /* Debug */,
+				97232579236DD88B00BDBBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9723257A236DD88B00BDBBBC /* Build configuration list for PBXNativeTarget "Shake Me Silly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9723257B236DD88B00BDBBBC /* Debug */,
+				9723257C236DD88B00BDBBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9723257D236DD88B00BDBBBC /* Build configuration list for PBXNativeTarget "Shake Me SillyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9723257E236DD88B00BDBBBC /* Debug */,
+				9723257F236DD88B00BDBBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97232580236DD88B00BDBBBC /* Build configuration list for PBXNativeTarget "Shake Me SillyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97232581236DD88B00BDBBBC /* Debug */,
+				97232582236DD88B00BDBBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97232543236DD86D00BDBBBC /* Project object */;
+}
