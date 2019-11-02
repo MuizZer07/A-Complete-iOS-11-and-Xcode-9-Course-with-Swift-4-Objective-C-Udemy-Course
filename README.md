@@ -14,6 +14,7 @@ This repository contains a few practice projects from Udemy course (iOS 11 and X
 
 ##### Section 20: Objective-C actions
   - [Digital Clock](https://github.com/MuizZer07/A-Complete-iOS-11-and-Xcode-9-Course-with-Swift-4-Objective-C-Udemy-Course/tree/master/Section%2020%20(Object-C%20Actions)/Digital%20Clock)
+  - [Temperature Calculator](https://github.com/MuizZer07/A-Complete-iOS-11-and-Xcode-9-Course-with-Swift-4-Objective-C-Udemy-Course/tree/master/Section%2020%20(Object-C%20Actions)/Temperature%20Calculator)
 
 ### References:
 
